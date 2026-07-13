@@ -1,4 +1,6 @@
-#🗳️ Outlier Detection in Ebonyi Election Data#
+#🗳️ Outlier Detection in Ebonyi Election Data
+
+
 📖 Project Overview
 
 This project analyzes polling unit results from Ebonyi State, Nigeria to detect unusual voting patterns (outliers). By combining geolocation, clustering, and statistical checks, we identify polling units whose results differ significantly from their neighbors.
