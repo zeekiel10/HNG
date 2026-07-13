@@ -1,5 +1,5 @@
-**🗳️ Outlier Detection in Ebonyi Election Data
-📖 Project Overview**
+#🗳️ Outlier Detection in Ebonyi Election Data#
+📖 Project Overview
 
 This project analyzes polling unit results from Ebonyi State, Nigeria to detect unusual voting patterns (outliers). By combining geolocation, clustering, and statistical checks, we identify polling units whose results differ significantly from their neighbors.
 
@@ -52,14 +52,14 @@ Focused on essential fields: location + party votes.
 
 Exported cleaned data to Excel for easy review.
 
-**3. Neighbor Detection**
+**3. Neighbor Detection*
 Defined a radius of 1 km around each polling unit.
 
 For each PU, found neighboring PUs within that radius using geodesic distance.
 
 This allowed comparison of voting patterns among geographically close polling units.
 
-**4. Outlier Score Calculation**
+###4. Outlier Score Calculation
 For each polling unit:
 
 Compared its party vote counts (APC, LP, PDP, NNPP) against the average of its neighbors.
@@ -68,14 +68,14 @@ Calculated the absolute difference = outlier score.
 
 Higher scores = more unusual compared to nearby polling units.
 
-5. Visualization
+###5. Visualization
 Created boxplots for each party’s outlier scores using Seaborn.
 
 Saved plots as election_outliers.png.
 
 These charts show the spread of anomalies across the state.
 
-**6. Top Outliers**
+###6. Top Outliers
 Identified the Top 3 polling units with the highest outlier scores for each party:
 
 APC: EDUKWU OFEREKPE, EDUKWU EDO PRIMARY SCHOOL, NDIOCHIMBA VILLAGE HALL
@@ -88,7 +88,7 @@ NNPP: AMAIGBO TOWN HALL, NGAMGBO OGELE, EDUKWIACHI TOWN HALL
 
 These units had vote counts that stood out sharply compared to their neighbors.
 
-**📊 Key Insights**
+##📊 Key Insights
 Outlier detection helps flag suspicious or unusual results.
 
 Some polling units show extreme deviations in party votes compared to nearby units.
