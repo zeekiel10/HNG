@@ -18,8 +18,9 @@ Party results (APC, LP, PDP, NNPP)
 
 Metadata about result sheets.
 
-**🔧 Steps Taken
-1. Data Preparation**
+****🔧 Steps Taken**
+
+1. Data Preparation
 Loaded the CSV file into Pandas.
 
 Created a full address string for each polling unit (PU-Name + Ward + LGA + State).
